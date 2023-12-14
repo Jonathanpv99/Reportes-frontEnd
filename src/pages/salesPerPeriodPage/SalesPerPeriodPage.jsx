@@ -1,8 +1,11 @@
 
 const SalesPerPeriodPage = () => {
-    <div>
-        <h1> SalesPerPeriodPage </h1>
-    </div>
+
+    return (
+        <div>
+        <h1>SalessPage</h1>
+        </div>
+    )
 }
 
 export default SalesPerPeriodPage;
