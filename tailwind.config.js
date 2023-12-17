@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'azul-f': '#000e19',
+        'azul-m': '#011A30',
         'azul': '#012340',
         'azulado': '#025939',
         'verde-f': '#027333',

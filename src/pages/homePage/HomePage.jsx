@@ -22,7 +22,7 @@ const HomePage = () => {
     return (
         <div className=" mt-5 flex justify-around items-center">
             <div>
-                <h1 className='m-8 text-justify text-lg'>
+                <h1 className='m-12 text-justify text-lg'>
                     architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut 
                     fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
                     dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam 
