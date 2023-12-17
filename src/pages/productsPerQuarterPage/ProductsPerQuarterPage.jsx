@@ -1,9 +1,10 @@
+import ProdutsPerQuarterForm from "./components/ProdutsPerQuarterForm";
 
 const ProductsPerQuarterPage = () => {
 
     return (
-        <div>
-        <h1>ProdutsPage</h1>
+        <div className="mt-3 bg-azul-m rounded-lg">
+            <ProdutsPerQuarterForm/>
         </div>
     )
 }

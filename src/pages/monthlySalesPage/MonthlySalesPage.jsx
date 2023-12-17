@@ -1,9 +1,10 @@
+import MonthlySalesForm from "./components/MonthlySalesForm";
 
 const MonthlySalesPage = () => {
 
     return (
-        <div>
-        <h1>MonthlySalesPage</h1>
+        <div className="mt-3 bg-azul-m rounded-lg">
+            <MonthlySalesForm/>
         </div>
     )
 }
