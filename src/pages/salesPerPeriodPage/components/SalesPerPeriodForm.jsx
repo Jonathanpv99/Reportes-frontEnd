@@ -68,8 +68,8 @@ const SalesPerPeriodForm = () => {
                     { error ? null : <p className='text-red-500 mt-2'> Select a Valid Option</p>}
                 </div>
             
-                <button type='submit'  className='bg-verde-f rounded-md max-h-10 mt-9 px-2' >
-                    Register
+                <button type='submit'  className='bg-gray-400 rounded-md max-h-10 mt-9 px-2' >
+                    Accept
                 </button>
             </form>
 

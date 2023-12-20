@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowTurnUp } from '@fortawesome/free-solid-svg-icons';
 
 const DevelopCard = ( props) => {
 
@@ -9,13 +11,19 @@ const DevelopCard = ( props) => {
                 <img className="max-w-xs rounded-full"
                 src={ `../../../../${ photo }` }alt="photo" />
             </div>
-            <div className="felx flex-row gap-4 mb-2 text-center">
-                <h1> Name: { name }</h1>
-                <h1>Surnames: { lastName }</h1>
-                <h1>Email: { email }</h1>
-                <h1>Phone Number: +52 { phone }</h1>
-                <h1>GitHub User: { github }</h1>
-                <a className=" text-cyan-600" href={ linkedin }>Go to Linkedin</a>
+            <div className="flex justify-center items-center mt-4">
+                <div className="felx flex-row mb-2 text-justify">
+                    <h1> Name: { name }</h1>
+                    <h1>Surnames: { lastName }</h1>
+                    <h1>Email: { email }</h1>
+                    <h1>Phone Number: +52 { phone }</h1>
+                    <h1>GitHub User: { github }</h1>
+                    <a className="text-gray-400" href={ linkedin }>
+                        Go to Linkedin...
+                        <FontAwesomeIcon  icon={ faArrowTurnUp }/>
+                    </a>
+                    <hr className="border-naranja"/>
+                </div>
             </div>
 
         </div>
